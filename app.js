@@ -157,7 +157,7 @@
                                 Wujudkan Ide Digital Anda Bersama <span class="bg-gradient-to-r from-purple-400 via-indigo-300 to-purple-500 bg-clip-text text-transparent">Special Team</span>
                             </h1>
                             <p class="text-gray-400 text-base sm:text-lg max-w-2xl leading-relaxed">
-                                Comunity digital elit yang mengkhususkan diri dalam Graphic Design, UI/UX Design, Full-stack Web Development, Custom Discord Bots, dan Engineering berkualitas tinggi dengan standar komunitas profesional.
+                                Comunity digital elit yang menyediakan fasilitas belajar Graphic Design, UI/UX Design, Full-stack Web Development, Custom Discord Bots, dan Engineering berkualitas tinggi dengan standar komunitas profesional.
                             </p>
                             <div class="flex flex-wrap items-center gap-4 pt-2">
                                 <a href="#pesan" class="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-semibold px-7 py-3.5 rounded-xl shadow-xl shadow-purple-600/25 flex items-center gap-2 transition-all hover:scale-[1.02]">
