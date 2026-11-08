@@ -1,6 +1,6 @@
 /**
- * SPECIAL TEAM - Elite Digital & Community Solutions
- * Complete Vanilla JavaScript DOM Application
+- SPECIAL TEAM - Elite Digital & Community Solutions
+- Complete Vanilla JavaScript DOM Application
  */
 
 (function() {
@@ -101,7 +101,7 @@
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 grid grid-cols-3 items-center">
                     <!-- Left: Logo & Agency Badge -->
                     <div id="nav-logo" class="flex items-center gap-3 cursor-pointer justify-start">
-                        <img src="ST3.png" alt="Special Team Logo" style="height: 48px; width: auto; object-fit: contain; filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.4));">
+                        <img src="ST2.png" alt="Special Team Logo" style="height: 48px; width: auto; object-fit: contain; filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.4));">
                         <div>
                             <div class="flex items-center gap-2">
                                 <span class="font-extrabold tracking-wider text-base sm:text-lg bg-gradient-to-r from-white via-gray-200 to-purple-400 bg-clip-text text-transparent">SPECIAL TEAM</span>
@@ -531,7 +531,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-12 border-b border-white/5">
                         <div class="md:col-span-5 space-y-4">
                             <div class="flex items-center gap-3">
-                                <img src="ST3.png" alt="Special Team Logo" style="height: 36px; width: auto; object-fit: contain; filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.4));">
+                                <img src="ST2.png" alt="Special Team Logo" style="height: 36px; width: auto; object-fit: contain; filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.4));">
                                 <span class="font-extrabold tracking-wider text-base text-white">SPECIAL TEAM</span>
                             </div>
                             <p class="text-gray-400 text-xs max-w-sm leading-relaxed">
