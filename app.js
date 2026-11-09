@@ -426,7 +426,7 @@
                                 <span class="text-[10px] bg-purple-950 text-purple-300 px-3 py-1 rounded-full font-bold border border-purple-500/30 mb-2">FOUNDER</span>
                                 <h3 class="text-lg font-bold text-white mb-1">Tigers 🐯</h3>
                                 <p class="text-purple-400 text-xs font-semibold mb-3 leading-snug">Full-Stack</p>
-                                <p class="text-gray-300 text-xs leading-relaxed mb-3">Pengarah strategi dan koordinator seluruh proyek Comunity</p>
+                                <p class="text-white text-xs leading-relaxed mb-3">Pengarah strategi dan koordinator seluruh proyek Comunity</p>
                                 <p class="text-gray-400 text-xs leading-relaxed">Fullstack Berpengalaman dengan keahlian dalam berbagai teknologi Front-End dan Back-End, Network Engineer, Cyber Security.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
@@ -441,9 +441,9 @@
                                     <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
                                 </div>
                                 <span class="text-[10px] bg-blue-950 text-blue-300 px-3 py-1 rounded-full font-bold border border-blue-500/30 mb-2">GUARDIAN</span>
-                                <h3 class="text-lg font-bold text-white mb-1">Pradana</h3>
+                                <h3 class="text-lg font-bold text-white mb-1">Pradana 🐰</h3>
                                 <p class="text-blue-400 text-xs font-semibold mb-3 leading-snug">Back-End Developer</p>
-                                <p class="text-gray-400 text-xs leading-relaxed mb-3">Penengah atau pemimpin yang bertugas mengatur, mengarahkan, dan mengawasi jalannya suatu diskusi, rapat, seminar.</p>
+                                <p class="text-white text-xs leading-relaxed mb-3">Penengah atau pemimpin yang bertugas mengatur, mengarahkan, dan mengawasi jalannya suatu diskusi, rapat, seminar.</p>
                                 <p class="text-gray-400 text-xs leading-relaxed">spesialis dengan keahlian dalam arsitektur sistem dan database management.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
