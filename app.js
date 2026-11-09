@@ -418,55 +418,63 @@
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col items-center">
-                            <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-purple-500/20 border border-purple-500/30">
-                                <img src="tigers_403.png" alt="Tigers" class="w-full h-full object-cover">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[460px]">
+                            <div class="flex flex-col items-center">
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-purple-500/20 border border-purple-500/30">
+                                    <img src="tigers_403.png" alt="Tigers" class="w-full h-full object-cover">
+                                </div>
+                                <span class="text-[10px] bg-purple-950 text-purple-300 px-3 py-1 rounded-full font-bold border border-purple-500/30 mb-2">FOUNDER</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Tigers 🐯</h3>
+                                <p class="text-purple-400 text-xs font-semibold mb-3 leading-snug">Pengarah strategi dan koordinator seluruh proyek Comunity</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Fullstack Developer Berpengalaman dengan keahlian dalam berbagai teknologi Front-End dan Back-End.</p>
                             </div>
-                            <span class="text-[10px] bg-purple-950 text-purple-300 px-3 py-1 rounded-full font-bold border border-purple-500/30 mb-2">FULLSTACK</span>
-                            <h3 class="text-lg font-bold text-white">Tigers 🐯</h3>
-                            <p class="text-purple-400 text-xs font-semibold mb-3">Pengarah strategi dan koordinator seluruh proyek Comunity</p>
-                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Fullstack developer berpengalaman dengan keahlian dalam berbagai teknologi frontend dan backend[cite: 6, 7].</p>
-                            <div class="flex items-center gap-3 text-gray-400">
+                            <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col items-center">
-                            <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-indigo-500/20 border border-indigo-500/30">
-                                <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[460px]">
+                            <div class="flex flex-col items-center">
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-indigo-500/20 border border-indigo-500/30">
+                                    <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
+                                </div>
+                                <span class="text-[10px] bg-indigo-950 text-indigo-300 px-3 py-1 rounded-full font-bold border border-indigo-500/30 mb-2">DEV</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Pradana</h3>
+                                <p class="text-indigo-400 text-xs font-semibold mb-3 leading-snug">Back-End</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Spesialis pengembangan server backend dan manajemen database.</p>
                             </div>
-                            <span class="text-[10px] bg-indigo-950 text-indigo-300 px-3 py-1 rounded-full font-bold border border-indigo-500/30 mb-2">DEV</span>
-                            <h3 class="text-lg font-bold text-white">Pradana</h3>
-                            <p class="text-indigo-400 text-xs font-semibold mb-3">Back-End</p>
-                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Spesialis pengembangan server backend dan manajemen database.</p>
-                            <div class="flex items-center gap-3 text-gray-400">
+                            <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col items-center">
-                            <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-pink-500/20 border border-pink-500/30">
-                                <img src="Smoker.png" alt="Smoker" class="w-full h-full object-cover">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[460px]">
+                            <div class="flex flex-col items-center">
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-pink-500/20 border border-pink-500/30">
+                                    <img src="Smoker.png" alt="Smoker" class="w-full h-full object-cover">
+                                </div>
+                                <span class="text-[10px] bg-pink-950 text-pink-300 px-3 py-1 rounded-full font-bold border border-pink-500/30 mb-2">UIX</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Smoker</h3>
+                                <p class="text-pink-400 text-xs font-semibold mb-3 leading-snug">UI/UX & Graphic Lead</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Perancang visual estetika dan antarmuka produk.</p>
                             </div>
-                            <span class="text-[10px] bg-pink-950 text-pink-300 px-3 py-1 rounded-full font-bold border border-pink-500/30 mb-2">UIX</span>
-                            <h3 class="text-lg font-bold text-white">Smoker</h3>
-                            <p class="text-pink-400 text-xs font-semibold mb-3">UI/UX & Graphic Lead</p>
-                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Perancang visual estetika dan antarmuka produk.</p>
-                            <div class="flex items-center gap-3 text-gray-400">
+                            <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-figma"></i></a>
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-behance"></i></a>
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col items-center">
-                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white text-xl font-bold shadow-xl shadow-emerald-500/20 mb-4">RZ</div>
-                            <span class="text-[10px] bg-emerald-950 text-emerald-300 px-3 py-1 rounded-full font-bold border border-emerald-500/30 mb-2">ENG</span>
-                            <h3 class="text-lg font-bold text-white">Raihan Z.</h3>
-                            <p class="text-emerald-400 text-xs font-semibold mb-3">Cloud & Systems Engineer</p>
-                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Pengelola infrastruktur server dan keamanan jaringan.</p>
-                            <div class="flex items-center gap-3 text-gray-400">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[460px]">
+                            <div class="flex flex-col items-center">
+                                <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white text-xl font-bold shadow-xl shadow-emerald-500/20 mb-4">RZ</div>
+                                <span class="text-[10px] bg-emerald-950 text-emerald-300 px-3 py-1 rounded-full font-bold border border-emerald-500/30 mb-2">ENG</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Raihan Z.</h3>
+                                <p class="text-emerald-400 text-xs font-semibold mb-3 leading-snug">Cloud & Systems Engineer</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Pengelola infrastruktur server dan keamanan jaringan.</p>
+                            </div>
+                            <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
