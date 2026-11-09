@@ -420,6 +420,7 @@
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                        <!-- Baris 1: Tigers -->
                         <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-purple-500/20 border border-purple-500/30">
@@ -437,31 +438,15 @@
                             </div>
                         </div>
 
+                        <!-- Baris 2: Smoker -->
                         <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
-                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-blue-500/20 border border-blue-500/30">
-                                    <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
-                                </div>
-                                <span class="text-[10px] bg-blue-950 text-blue-300 px-3 py-1 rounded-full font-bold border border-blue-500/30 mb-2">GUARDIAN</span>
-                                <h3 class="text-lg font-bold text-white mb-1">Pradana 🐰</h3>
-                                <p class="text-blue-400 text-xs font-semibold mb-3 leading-snug">Backend Developer</p>
-                                <p class="text-white text-xs leading-relaxed mb-3">Penengah atau pemimpin yang bertugas mengatur, mengarahkan, dan mengawasi jalannya suatu diskusi, rapat, seminar.</p>
-                                <p class="text-gray-400 text-xs leading-relaxed">Backend developer spesialis dengan keahlian dalam arsitektur sistem dan database management.</p>
-                            </div>
-                            <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
-                                <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
-                                <a href="https://github.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
-                            </div>
-                        </div>
-
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
-                            <div class="flex flex-col items-center">
-                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-pink-500/20 border border-pink-500/30">
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl border border-[#e67e22]/30" style="box-shadow: 0 0 20px rgba(230, 126, 34, 0.25);">
                                     <img src="Smoker.png" alt="Smoker" class="w-full h-full object-cover">
                                 </div>
-                                <span class="text-[10px] bg-pink-950 text-pink-300 px-3 py-1 rounded-full font-bold border border-pink-500/30 mb-2">CHIEF</span>
+                                <span class="text-[10px] font-bold px-3 py-1 rounded-full border mb-2" style="background-color: rgba(230, 126, 34, 0.15); color: #e67e22; border-color: rgba(230, 126, 34, 0.3);">CHIEF</span>
                                 <h3 class="text-lg font-bold text-white mb-1">Smoker 🚬</h3>
-                                <p class="text-pink-400 text-xs font-semibold mb-3 leading-snug">UI/UX & Graphic Lead</p>
+                                <p class="text-xs font-semibold mb-3 leading-snug" style="color: #e67e22;">UI/UX & Graphic Lead</p>
                                 <p class="text-white text-xs leading-relaxed mb-3">Memimpin dan membimbing para Creative</p>
                                 <p class="text-gray-400 text-xs leading-relaxed">Spesialis desain UI/UX dengan pengalaman 5 tahun menciptakan antarmuka yang intuitif dan menarik untuk pengguna.</p>
                             </div>
@@ -471,6 +456,7 @@
                             </div>
                         </div>
 
+                        <!-- Baris 3: Renata -->
                         <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl border border-[rgb(0,178,255)]/30" style="box-shadow: 0 0 20px rgba(0, 178, 255, 0.25);">
@@ -488,6 +474,7 @@
                             </div>
                         </div>
 
+                        <!-- Baris 4: Kaffa -->
                         <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl border border-[#2ff158]/30" style="box-shadow: 0 0 20px rgba(47, 241, 88, 0.25);">
@@ -502,6 +489,24 @@
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
                                 <a href="https://github.com/kafaa-dev" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Baris 5 (Terakhir): Pradana -->
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
+                            <div class="flex flex-col items-center">
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl border border-[#e4b400]/30" style="box-shadow: 0 0 20px rgba(228, 180, 0, 0.25);">
+                                    <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
+                                </div>
+                                <span class="text-[10px] font-bold px-3 py-1 rounded-full border mb-2" style="background-color: rgba(228, 180, 0, 0.15); color: #e4b400; border-color: rgba(228, 180, 0, 0.3);">GUARDIAN</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Pradana 🐰</h3>
+                                <p class="text-xs font-semibold mb-3 leading-snug" style="color: #e4b400;">Backend Developer</p>
+                                <p class="text-white text-xs leading-relaxed mb-3">Penengah atau pemimpin yang bertugas mengatur, mengarahkan, dan mengawasi jalannya suatu diskusi, rapat, seminar.</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Backend developer spesialis dengan keahlian dalam arsitektur sistem dan database management.</p>
+                            </div>
+                            <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
+                                <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
+                                <a href="https://github.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                     </div>
