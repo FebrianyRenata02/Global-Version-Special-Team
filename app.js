@@ -46,24 +46,26 @@
             twScript.id = 'tailwind-script';
             twScript.src = 'https://cdn.tailwindcss.com';
             twScript.onload = () => {
-                window.tailwind.config = {
-                    darkMode: 'class',
-                    theme: {
-                        extend: {
-                            colors: {
-                                darkBg: '#09090b',
-                                cardBg: '#121217',
-                                cardHover: '#1a1a23',
-                                primary: '#8b5cf6',
-                                primaryHover: '#7c3aed',
-                                discordBlurple: '#5865F2'
-                            },
-                            fontFamily: {
-                                sans: ['Inter', 'sans-serif'],
+                if (window.tailwind) {
+                    window.tailwind.config = {
+                        darkMode: 'class',
+                        theme: {
+                            extend: {
+                                colors: {
+                                    darkBg: '#09090b',
+                                    cardBg: '#121217',
+                                    cardHover: '#1a1a23',
+                                    primary: '#8b5cf6',
+                                    primaryHover: '#7c3aed',
+                                    discordBlurple: '#5865F2'
+                                },
+                                fontFamily: {
+                                    sans: ['Inter', 'sans-serif'],
+                                }
                             }
                         }
-                    }
-                };
+                    };
+                }
             };
             document.head.appendChild(twScript);
         }
@@ -417,8 +419,8 @@
                         <p class="text-gray-400 text-sm mt-3">Dipimpin oleh individu berpengalaman di bidang pengembangan perangkat lunak dan desain kreatif.</p>
                     </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-purple-500/20 border border-purple-500/30">
                                     <img src="tigers_403.png" alt="Tigers" class="w-full h-full object-cover">
@@ -430,12 +432,12 @@
                                 <p class="text-gray-400 text-xs leading-relaxed">Fullstack Berpengalaman dengan keahlian dalam berbagai teknologi Front-End dan Back-End, Network Engineer, Cyber Security.<br><br>Pengelola infrastruktur server dan keamanan jaringan.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
+                                <a href="https://github.com/arif-budianto" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-blue-500/20 border border-blue-500/30">
                                     <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
@@ -447,12 +449,12 @@
                                 <p class="text-gray-400 text-xs leading-relaxed">Backend developer spesialis dengan keahlian dalam arsitektur sistem dan database management.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
+                                <a href="https://github.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-pink-500/20 border border-pink-500/30">
                                     <img src="Smoker.png" alt="Smoker" class="w-full h-full object-cover">
@@ -464,24 +466,42 @@
                                 <p class="text-gray-400 text-xs leading-relaxed">Spesialis desain UI/UX dengan pengalaman 5 tahun menciptakan antarmuka yang intuitif dan menarik untuk pengguna.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-figma"></i></a>
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-behance"></i></a>
+                                <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
+                                <a href="https://github.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
                             <div class="flex flex-col items-center">
-                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl mb-4 border border-[rgb(0,178,255)]/30" style="box-shadow: 0 0 20px rgba(0, 178, 255, 0.25);">
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl border border-[rgb(0,178,255)]/30" style="box-shadow: 0 0 20px rgba(0, 178, 255, 0.25);">
                                     <img src="Rena.png" alt="Rena" class="w-full h-full object-cover">
                                 </div>
                                 <span class="text-[10px] font-bold px-3 py-1 rounded-full border mb-2" style="background-color: rgba(0, 178, 255, 0.15); color: rgb(0, 178, 255); border-color: rgba(0, 178, 255, 0.3);">Admin</span>
-                                <h3 class="text-lg font-bold text-white mb-1">Renata</h3>
+                                <h3 class="text-lg font-bold text-white mb-1">Renata ☕👨‍💻</h3>
                                 <p class="text-xs font-semibold mb-3 leading-snug" style="color: rgb(0, 178, 255);">Design & Front-End Developer</p>
-                                <p class="text-gray-400 text-xs leading-relaxed">Pengelola infrastruktur server dan keamanan jaringan.</p>
+                                <p class="text-white text-xs leading-relaxed mb-3">mengelola seluruh dukungan operasional, pencatatan data, dan kelancaran kegiatan</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">merancang tampilan, pengalaman pengguna & bertanggung jawab mewujudkan rancangan visual dari desainer tersebut menjadi sebuah produk nyata yang bisa digunakan lewat penulisan baris kode (programming)</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
-                                <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
+                                <a href="https://github.com/FebrianyRenata02" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between">
+                            <div class="flex flex-col items-center">
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl border border-[#2ff158]/30" style="box-shadow: 0 0 20px rgba(47, 241, 88, 0.25);">
+                                    <img src="Kaffa.png" alt="Kaffa" class="w-full h-full object-cover">
+                                </div>
+                                <span class="text-[10px] font-bold px-3 py-1 rounded-full border mb-2" style="background-color: rgba(47, 241, 88, 0.15); color: #2ff158; border-color: rgba(47, 241, 88, 0.3);">Tech Support</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Kaffa 🐢</h3>
+                                <p class="text-xs font-semibold mb-3 leading-snug" style="color: #2ff158;">Front-End Developer</p>
+                                <p class="text-white text-xs leading-relaxed mb-3">Kerjasama saling membantu dalam masalah debuging dan technical</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Frontend developer ahli dalam React dan Vue.js, fokus pada pengalaman pengguna yang optimal.</p>
+                            </div>
+                            <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
+                                <a href="https://discord.com" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
+                                <a href="https://github.com/kafaa-dev" target="_blank" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -613,7 +633,6 @@
 
     // Attach Interactivity Event Listeners
     function setupInteractions() {
-        // Mobile Menu Toggle
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
         const mobileLinks = document.querySelectorAll('.mobile-link');
@@ -630,7 +649,6 @@
             });
         }
 
-        // Logo Scroll to Top
         const navLogo = document.getElementById('nav-logo');
         if (navLogo) {
             navLogo.addEventListener('click', () => {
@@ -641,7 +659,6 @@
             });
         }
 
-        // Toast Notification System
         function showToast(message) {
             const toast = document.getElementById('toast');
             const toastMsg = document.getElementById('toast-message');
@@ -655,7 +672,6 @@
             }, 3500);
         }
 
-        // Form Submit Handler
         const orderForm = document.getElementById('order-form');
         if (orderForm) {
             orderForm.addEventListener('submit', (e) => {
@@ -668,7 +684,6 @@
             });
         }
 
-        // Modal Management
         const modal = document.getElementById('project-modal');
         const modalContent = document.getElementById('modal-content');
         const modalTitle = document.getElementById('modal-title');
@@ -713,7 +728,9 @@
 
         if (modal) {
             window.addEventListener('click', (e) => {
-                e.target === modal && closeModal();
+                if (e.target === modal) {
+                    closeModal();
+                }
             });
         }
     }
