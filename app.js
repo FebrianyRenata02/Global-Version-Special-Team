@@ -157,7 +157,7 @@
                                 Wujudkan Ide Digital Anda Bersama <span class="bg-gradient-to-r from-purple-400 via-indigo-300 to-purple-500 bg-clip-text text-transparent">Special Team</span>
                             </h1>
                             <p class="text-gray-400 text-base sm:text-lg max-w-2xl leading-relaxed">
-                                Comunity digital elit yang menyediakan fasilitas belajar Graphic Design, UI/UX Design, Full-stack Web Development, Custom Discord Bots, dan Engineering berkualitas tinggi dengan standar komunitas profesional.
+                                Agensi digital elit yang mengkhususkan diri dalam Graphic Design, UI/UX Design, Front-end Web Development, Custom Discord Bots, dan Engineering berkualitas tinggi dengan standar komunitas profesional.
                             </p>
                             <div class="flex flex-wrap items-center gap-4 pt-2">
                                 <a href="#pesan" class="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-semibold px-7 py-3.5 rounded-xl shadow-xl shadow-purple-600/25 flex items-center gap-2 transition-all hover:scale-[1.02]">
@@ -209,10 +209,10 @@
                                     </div>
                                     <div class="bg-darkBg/80 p-3 rounded-2xl border border-white/5">
                                         <div class="flex items-center justify-between text-xs mb-1">
-                                            <span class="font-bold text-indigo-400 flex items-center gap-1.5"><i class="fa-solid fa-code text-[10px]"></i> Lead Developer</span>
+                                            <span class="font-bold text-indigo-400 flex items-center gap-1.5"><i class="fa-solid fa-code text-[10px]"></i> Front-End</span>
                                             <span class="text-[10px] text-gray-500">5 mnt lalu</span>
                                         </div>
-                                        <p class="text-xs text-gray-300">Menerima pesanan baru untuk arsitektur cloud server dan custom dashboard.</p>
+                                        <p class="text-xs text-gray-300">Menerima pesanan baru untuk antarmuka web responsif dan kustomisasi komponen.</p>
                                     </div>
                                 </div>
 
@@ -231,7 +231,7 @@
                     <div class="text-center max-w-2xl mx-auto mb-16">
                         <span class="text-purple-400 font-semibold text-xs tracking-widest uppercase bg-purple-950/50 px-3 py-1 rounded-full border border-purple-500/20">Layanan Profesional</span>
                         <h2 class="text-3xl sm:text-4xl font-extrabold mt-3 tracking-tight">Kami Menawarkan Anda</h2>
-                        <p class="text-gray-400 text-sm mt-3">Solusi lengkap untuk kebutuhan digital bisnis Anda. Mulai dari desain website profesional, pengembangan aplikasi web, hingga optimasi performa dan keamanan. Tim ahli kami siap membantu mewujudkan visi digital Anda dengan teknologi terkini.</p>
+                        <p class="text-gray-400 text-sm mt-3">Solusi lengkap untuk kebutuhan digital bisnis Anda. Mulai dari desain website profesional, pengembangan Front-End, hingga optimasi performa dan keamanan. Tim ahli kami siap membantu mewujudkan visi digital Anda dengan teknologi terkini.</p>
                     </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -268,11 +268,11 @@
                                 <div class="w-12 h-12 rounded-2xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 text-xl mb-6">
                                     <i class="fa-solid fa-code"></i>
                                 </div>
-                                <h3 class="text-xl font-bold text-white mb-2">Full-stack Web Dev</h3>
-                                <p class="text-gray-400 text-sm mb-6 leading-relaxed">Pengembangan situs web perusahaan, landing page interaktif, aplikasi web dinamis dengan performa cepat dan aman.</p>
+                                <h3 class="text-xl font-bold text-white mb-2">Front-End Web Dev</h3>
+                                <p class="text-gray-400 text-sm mb-6 leading-relaxed">Pengembangan situs web perusahaan, landing page interaktif, antarmuka web dinamis dengan performa cepat dan responsif.</p>
                             </div>
                             <div class="space-y-2 border-t border-white/5 pt-4 text-xs text-gray-300">
-                                <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Modern Frontend & Backend</div>
+                                <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> Modern Frontend & Components</div>
                                 <div class="flex items-center gap-2"><i class="fa-solid fa-check text-blue-400"></i> SEO Friendly & Responsive</div>
                             </div>
                         </div>
@@ -425,7 +425,7 @@
                             <span class="text-[10px] bg-purple-950 text-purple-300 px-3 py-1 rounded-full font-bold border border-purple-500/30 mb-2">FOUNDER</span>
                             <h3 class="text-lg font-bold text-white">Tigers</h3>
                             <p class="text-purple-400 text-xs font-semibold mb-3">Founder & Director</p>
-                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Pengarah strategi dan koordinator seluruh proyek agensi.</p>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Pengarah strategi dan koordinator seluruh proyek Comunity.</p>
                             <div class="flex items-center gap-3 text-gray-400">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
@@ -433,11 +433,13 @@
                         </div>
 
                         <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col items-center">
-                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-indigo-600 to-blue-500 flex items-center justify-center text-white text-xl font-bold shadow-xl shadow-indigo-500/20 mb-4">AV</div>
+                            <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-indigo-500/20 border border-indigo-500/30">
+                                <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
+                            </div>
                             <span class="text-[10px] bg-indigo-950 text-indigo-300 px-3 py-1 rounded-full font-bold border border-indigo-500/30 mb-2">DEV</span>
-                            <h3 class="text-lg font-bold text-white">Alex Versier</h3>
-                            <p class="text-indigo-400 text-xs font-semibold mb-3">Lead Full-stack Dev</p>
-                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Spesialis arsitektur web dan sistem bot Discord.</p>
+                            <h3 class="text-lg font-bold text-white">Pradana</h3>
+                            <p class="text-indigo-400 text-xs font-semibold mb-3">Front-End</p>
+                            <p class="text-gray-400 text-xs leading-relaxed mb-6">Spesialis pengembangan antarmuka dan interaksi web modern.</p>
                             <div class="flex items-center gap-3 text-gray-400">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-github"></i></a>
@@ -501,7 +503,7 @@
                                 <select id="service" class="w-full bg-darkBg border border-white/10 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-purple-500 transition-colors">
                                     <option value="Graphic Design">Graphic Design (Banner, Logo, Asset)</option>
                                     <option value="UI/UX Design">UI/UX Design (Figma, Web/App Prototype)</option>
-                                    <option value="Full-stack Web Dev">Full-stack Web Development</option>
+                                    <option value="Front-End Web Dev">Front-End Web Development</option>
                                     <option value="Custom Discord Bots">Custom Discord Bots</option>
                                     <option value="Engineering & Cloud Solutions">Engineering & Cloud Solutions</option>
                                 </select>
