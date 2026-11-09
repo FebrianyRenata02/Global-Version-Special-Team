@@ -209,7 +209,7 @@
                                     </div>
                                     <div class="bg-darkBg/80 p-3 rounded-2xl border border-white/5">
                                         <div class="flex items-center justify-between text-xs mb-1">
-                                            <span class="font-bold text-blue-400 flex items-center gap-1.5"><i class="fa-solid fa-code text-[10px]"></i> Guardian, Back-End Developer</span>
+                                            <span class="font-bold text-blue-400 flex items-center gap-1.5"><i class="fa-solid fa-code text-[10px]"></i> Guardian, Backend Developer</span>
                                             <span class="text-[10px] text-gray-500">5 mnt lalu</span>
                                         </div>
                                         <p class="text-xs text-gray-300">Menerima pesanan baru untuk arsitektur server backend dan manajemen database.</p>
@@ -427,7 +427,7 @@
                                 <h3 class="text-lg font-bold text-white mb-1">Tigers 🐯</h3>
                                 <p class="text-purple-400 text-xs font-semibold mb-3 leading-snug">Full-Stack</p>
                                 <p class="text-white text-xs leading-relaxed mb-3">Pengarah strategi dan koordinator seluruh proyek Comunity</p>
-                                <p class="text-gray-400 text-xs leading-relaxed">Fullstack Berpengalaman dengan keahlian dalam berbagai teknologi Front-End dan Back-End, Network Engineer, Cyber Security.</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Fullstack Berpengalaman dengan keahlian dalam berbagai teknologi Front-End dan Back-End, Network Engineer, Cyber Security.<br><br>Pengelola infrastruktur server dan keamanan jaringan.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
@@ -442,9 +442,9 @@
                                 </div>
                                 <span class="text-[10px] bg-blue-950 text-blue-300 px-3 py-1 rounded-full font-bold border border-blue-500/30 mb-2">GUARDIAN</span>
                                 <h3 class="text-lg font-bold text-white mb-1">Pradana 🐰</h3>
-                                <p class="text-blue-400 text-xs font-semibold mb-3 leading-snug">Back-End Developer</p>
+                                <p class="text-blue-400 text-xs font-semibold mb-3 leading-snug">Backend Developer</p>
                                 <p class="text-white text-xs leading-relaxed mb-3">Penengah atau pemimpin yang bertugas mengatur, mengarahkan, dan mengawasi jalannya suatu diskusi, rapat, seminar.</p>
-                                <p class="text-gray-400 text-xs leading-relaxed">spesialis dengan keahlian dalam arsitektur sistem dan database management.</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Backend developer spesialis dengan keahlian dalam arsitektur sistem dan database management.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
@@ -457,10 +457,11 @@
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-pink-500/20 border border-pink-500/30">
                                     <img src="Smoker.png" alt="Smoker" class="w-full h-full object-cover">
                                 </div>
-                                <span class="text-[10px] bg-pink-950 text-pink-300 px-3 py-1 rounded-full font-bold border border-pink-500/30 mb-2">UIX</span>
-                                <h3 class="text-lg font-bold text-white mb-1">Smoker</h3>
+                                <span class="text-[10px] bg-pink-950 text-pink-300 px-3 py-1 rounded-full font-bold border border-pink-500/30 mb-2">CHIEF</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Smoker 🚬</h3>
                                 <p class="text-pink-400 text-xs font-semibold mb-3 leading-snug">UI/UX & Graphic Lead</p>
-                                <p class="text-gray-400 text-xs leading-relaxed">Perancang visual estetika dan antarmuka produk.</p>
+                                <p class="text-white text-xs leading-relaxed mb-3">Memimpin dan membimbing para Creative</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Spesialis desain UI/UX dengan pengalaman 5 tahun menciptakan antarmuka yang intuitif dan menarik untuk pengguna.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-figma"></i></a>
@@ -470,10 +471,12 @@
 
                         <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
                             <div class="flex flex-col items-center">
-                                <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white text-xl font-bold shadow-xl shadow-emerald-500/20 mb-4">RZ</div>
-                                <span class="text-[10px] bg-emerald-950 text-emerald-300 px-3 py-1 rounded-full font-bold border border-emerald-500/30 mb-2">ENG</span>
-                                <h3 class="text-lg font-bold text-white mb-1">Raihan Z.</h3>
-                                <p class="text-emerald-400 text-xs font-semibold mb-3 leading-snug">Cloud & Systems Engineer</p>
+                                <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl mb-4 border border-[rgb(0,178,255)]/30" style="box-shadow: 0 0 20px rgba(0, 178, 255, 0.25);">
+                                    <img src="Rena.png" alt="Rena" class="w-full h-full object-cover">
+                                </div>
+                                <span class="text-[10px] font-bold px-3 py-1 rounded-full border mb-2" style="background-color: rgba(0, 178, 255, 0.15); color: rgb(0, 178, 255); border-color: rgba(0, 178, 255, 0.3);">Admin</span>
+                                <h3 class="text-lg font-bold text-white mb-1">Renata</h3>
+                                <p class="text-xs font-semibold mb-3 leading-snug" style="color: rgb(0, 178, 255);">Design & Front-End Developer</p>
                                 <p class="text-gray-400 text-xs leading-relaxed">Pengelola infrastruktur server dan keamanan jaringan.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
