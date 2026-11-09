@@ -202,7 +202,7 @@
                                 <div class="mt-4 space-y-3">
                                     <div class="bg-darkBg/80 p-3 rounded-2xl border border-white/5">
                                         <div class="flex items-center justify-between text-xs mb-1">
-                                            <span class="font-bold text-purple-400 flex items-center gap-1.5"><i class="fa-solid fa-crown text-[10px]"></i> Pengarah strategi dan koordinator seluruh proyek Comunity</span>
+                                            <span class="font-bold text-purple-400 flex items-center gap-1.5"><i class="fa-solid fa-crown text-[10px]"></i> Full-Stack</span>
                                             <span class="text-[10px] text-gray-500">Baru saja</span>
                                         </div>
                                         <p class="text-xs text-gray-300">Komisi desain web & bot Discord untuk klien VIP telah diselesaikan dengan sukses!</p>
@@ -418,15 +418,16 @@
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[560px]">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-purple-500/20 border border-purple-500/30">
                                     <img src="tigers_403.png" alt="Tigers" class="w-full h-full object-cover">
                                 </div>
                                 <span class="text-[10px] bg-purple-950 text-purple-300 px-3 py-1 rounded-full font-bold border border-purple-500/30 mb-2">FOUNDER</span>
                                 <h3 class="text-lg font-bold text-white mb-1">Tigers 🐯</h3>
-                                <p class="text-purple-400 text-xs font-semibold mb-3 leading-snug">Pengarah strategi dan koordinator seluruh proyek Comunity</p>
-                                <p class="text-gray-400 text-xs leading-relaxed">Fullstack Developer Berpengalaman dengan keahlian dalam berbagai teknologi Front-End dan Back-End.</p>
+                                <p class="text-purple-400 text-xs font-semibold mb-3 leading-snug">Full-Stack</p>
+                                <p class="text-gray-300 text-xs leading-relaxed mb-3">Pengarah strategi dan koordinator seluruh proyek Comunity</p>
+                                <p class="text-gray-400 text-xs leading-relaxed">Fullstack Berpengalaman dengan keahlian dalam berbagai teknologi Front-End dan Back-End, Network Engineer, Cyber Security.</p>
                             </div>
                             <div class="flex items-center justify-center gap-3 text-gray-400 pt-4 border-t border-white/5 mt-4">
                                 <a href="#" class="w-9 h-9 rounded-xl bg-white/5 hover:bg-white/10 flex items-center justify-center text-sm transition-colors"><i class="fa-brands fa-discord"></i></a>
@@ -434,7 +435,7 @@
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[560px]">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-blue-500/20 border border-blue-500/30">
                                     <img src="Pradana.png" alt="Pradana" class="w-full h-full object-cover">
@@ -451,7 +452,7 @@
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[560px]">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl overflow-hidden mb-4 shadow-xl shadow-pink-500/20 border border-pink-500/30">
                                     <img src="Smoker.png" alt="Smoker" class="w-full h-full object-cover">
@@ -467,7 +468,7 @@
                             </div>
                         </div>
 
-                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[560px]">
+                        <div class="bg-cardBg border border-white/5 rounded-3xl p-6 text-center glow-card transition-all duration-300 flex flex-col justify-between min-h-[660px]">
                             <div class="flex flex-col items-center">
                                 <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 flex items-center justify-center text-white text-xl font-bold shadow-xl shadow-emerald-500/20 mb-4">RZ</div>
                                 <span class="text-[10px] bg-emerald-950 text-emerald-300 px-3 py-1 rounded-full font-bold border border-emerald-500/30 mb-2">ENG</span>
